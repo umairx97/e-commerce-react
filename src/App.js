@@ -1,5 +1,5 @@
 import React from 'react';
-import HomePage from 'components/HomePage/HomePage.component';
+import HomePage from 'pages/HomePage/HomePage.component';
 
 const App = () => (
   <div>
