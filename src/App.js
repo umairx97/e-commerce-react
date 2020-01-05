@@ -1,19 +1,14 @@
 import React from 'react';
-import HomePage from 'pages/HomePage/HomePage.component';
 import './App.css'
 import { Route, Switch } from 'react-router-dom';
-
-const HatsPage = () => (
-  <div>
-    <h1>HATS PAGE</h1>
-  </div>
-)
+import HomePage from 'pages/HomePage/HomePage.component';
+import ShopPage from 'pages/ShopPage/ShopPage.component';
 
 const App = () => (
   <div>
     <Switch>
       <Route exact path="/" component={HomePage} />
-      <Route exact path="/hats" component={HatsPage} />
+      <Route exact path="/shop" component={ShopPage} />
     </Switch>
   </div>
 )
